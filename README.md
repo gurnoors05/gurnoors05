@@ -16,7 +16,8 @@
 
 I build clean, scalable, and impactful software, mostly full-stack web apps with an AI or ML twist. I like taking an idea from a blank folder to a deployed, working product, and I'm always picking up something new along the way.
 
-- 🔭 Building AI-powered apps with **React, Node.js, Python and Gemini**
+- 🔭 Building AI-powered apps with **React, Node.js, Python and LLM APIs**
+- 🤖 Building **agentic AI** with LangChain and LangGraph: my latest is an [agentic RAG assistant](https://github.com/gurnoors05/agentic-rag-langgraph) that grades its own sources and fact-checks its answers
 - 🧠 Deep into **Machine Learning**: clustering, recommendation systems, classification
 - 🌱 Currently strengthening **DSA** and system design
 - 📫 Best way to reach me: [LinkedIn](https://www.linkedin.com/in/gurnoor-singh-191029290/)
@@ -39,9 +40,24 @@ I build clean, scalable, and impactful software, mostly full-stack web apps with
 
 <img src="https://skillicons.dev/icons?i=nodejs,express,flask,mongodb,firebase&theme=dark" alt="Backend" />
 
-**ML & Data**
+**GenAI & Agents**
+
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph" />
+<img src="https://img.shields.io/badge/RAG-Retrieval_Augmented_Generation-6E40C9?style=for-the-badge" alt="RAG" />
+<img src="https://img.shields.io/badge/Agentic_Workflows-0A66C2?style=for-the-badge" alt="Agentic workflows" />
+<br>
+<img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
+<img src="https://img.shields.io/badge/Vector_Search-FAISS-2E7D32?style=for-the-badge" alt="FAISS vector search" />
+<img src="https://img.shields.io/badge/Prompt_Engineering-F57C00?style=for-the-badge" alt="Prompt engineering" />
+
+**Machine Learning & Data**
 
 <img src="https://skillicons.dev/icons?i=sklearn,pandas,numpy,jupyter&theme=dark" alt="ML" />
+<br>
+<img src="https://img.shields.io/badge/Sentence--Transformers-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Sentence-Transformers" />
+<img src="https://img.shields.io/badge/Clustering_%26_Recommenders-F7931E?style=for-the-badge" alt="Clustering and recommenders" />
 
 **Tools & Deployment**
 
@@ -54,6 +70,21 @@ I build clean, scalable, and impactful software, mostly full-stack web apps with
 ## 🚀 Featured Projects
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>🧠 <a href="https://github.com/gurnoors05/agentic-rag-langgraph">Agentic RAG with LangGraph</a></h3>
+      <p>Chat with your own PDFs and notes through a LangGraph state machine instead of a plain retrieve-and-answer chain. The agent routes each question, grades every retrieved chunk for relevance, rewrites weak search queries and retries, then fact-checks its own answer against the sources before replying, with inline citations. Includes a Streamlit UI that shows each step live and a unit-tested graph (CI via GitHub Actions).</p>
+      <p>
+        <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white" />
+        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white" />
+        <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white" />
+        <img src="https://img.shields.io/badge/FAISS-2E7D32?style=flat" />
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white" />
+        <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white" />
+      </p>
+      <a href="https://github.com/gurnoors05/agentic-rag-langgraph">📂 Code</a>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>🧵 <a href="https://github.com/gurnoors05/Vastra-AI-Weaving-Ideas-into-Reality">Vastra AI</a></h3>
